@@ -1,92 +1,183 @@
-LOTUS404
-────────────────────────────
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOTUS404 | Official Community</title>
 
-HOME
-ABOUT
-NEWS
-COMMUNITY
-CONTACT
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
 
-────────────────────────────
+        body{
+            font-family:Arial,Helvetica,sans-serif;
+            background:#0f0f0f;
+            color:white;
+        }
 
-WELCOME TO LOTUS404
+        header{
+            background:#111;
+            padding:20px 8%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            border-bottom:2px solid gold;
+        }
 
-Official Community Website
+        .logo{
+            color:gold;
+            font-size:32px;
+            font-weight:bold;
+        }
 
-[ Learn More ]
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:25px;
+            transition:.3s;
+        }
 
-────────────────────────────
+        nav a:hover{
+            color:gold;
+        }
 
-Latest News
+        .hero{
+            min-height:80vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            text-align:center;
+            padding:30px;
+        }
 
-• Artikel 1
-• Artikel 2
-• Artikel 3
+        .hero h1{
+            font-size:60px;
+            color:gold;
+            margin-bottom:15px;
+        }
 
-────────────────────────────
+        .hero p{
+            font-size:20px;
+            color:#cccccc;
+            max-width:700px;
+            margin-bottom:35px;
+        }
 
-Community
+        .btn{
+            display:inline-block;
+            background:gold;
+            color:black;
+            text-decoration:none;
+            padding:15px 35px;
+            border-radius:8px;
+            font-weight:bold;
+        }
 
-Official Information
-Updates
-Events
+        section{
+            padding:80px 10%;
+        }
 
-────────────────────────────
+        h2{
+            color:gold;
+            margin-bottom:25px;
+            font-size:36px;
+        }
 
-© 2026 LOTUS404
-🪷 LOTUS404
+        .cards{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+            gap:20px;
+            margin-top:30px;
+        }
 
-Official Website
+        .card{
+            background:#1a1a1a;
+            padding:25px;
+            border-radius:12px;
+            border:1px solid #333;
+        }
 
-━━━━━━━━━━━━━━━━━━━━
+        footer{
+            text-align:center;
+            padding:30px;
+            background:#111;
+            border-top:2px solid gold;
+            color:#aaa;
+        }
+    </style>
+</head>
 
-Home
-About
-News
-Community
+<body>
 
-━━━━━━━━━━━━━━━━━━━━
+<header>
 
-Welcome to LOTUS404
+<div class="logo">LOTUS404</div>
 
-Website resmi komunitas LOTUS404.
+<nav>
+<a href="#about">About</a>
+<a href="#features">Features</a>
+<a href="#contact">Contact</a>
+</nav>
 
-[ Learn More ]
+</header>
 
-━━━━━━━━━━━━━━━━━━━━
+<section class="hero">
 
-Keunggulan
+<h1>LOTUS404</h1>
 
-✔ Modern Design
-✔ Fast Website
-✔ Mobile Friendly
-✔ Official Information
+<p>
+Selamat datang di website resmi komunitas LOTUS404.
+Website ini dibuat sebagai pusat informasi dan pembaruan komunitas.
+</p>
 
-━━━━━━━━━━━━━━━━━━━━
+<a href="#about" class="btn">Jelajahi</a>
 
-Footer
-© LOTUS404
-lotus404/
+</section>
 
-│ index.html
-│
+<section id="about">
 
-├── css/
-│      style.css
-│
+<h2>Tentang</h2>
 
-├── js/
-│      script.js
-│
+<p>
+LOTUS404 merupakan website komunitas yang berisi informasi, pembaruan, artikel, dan berbagai konten yang terus dikembangkan.
+</p>
 
-├── images/
-│      logo.png
-│      banner.jpg
-│
+</section>
 
-├── news/
-│      index.html
-│
+<section id="features">
 
-└── about/
-       index.html
+<h2>Keunggulan</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Modern</h3>
+<p>Tampilan bersih dan responsif.</p>
+</div>
+
+<div class="card">
+<h3>Cepat</h3>
+<p>Website ringan dan mudah diakses.</p>
+</div>
+
+<div class="card">
+<h3>Responsive</h3>
+<p>Nyaman dibuka di HP maupun komputer.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer id="contact">
+
+© 2026 LOTUS404 • Official Community Website
+
+</footer>
+
+</body>
+</html>
